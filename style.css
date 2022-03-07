@@ -16,13 +16,11 @@
 }
 
 #VIDEOHOME{
-    object-fit: cover;
-    object-position: center; 
     z-index: -1;
 }
 
 .menu{
-    font-size: 37px; 
+    font-size: 30px; 
     font-family: FUENTE1;
 }
 
@@ -86,7 +84,7 @@ footer{
 
 .FORMULARIO{
     font-family: FUENTE1; 
-    font-size: 30px; 
+    font-size: 28px; 
     color: black; 
 }
 
@@ -114,7 +112,7 @@ footer{
 .titulos{
     font-family: FUENTE1; 
     color: black; 
-    font-size: 126px; 
+    font-size: 110px; 
     padding-left: 60px;
 }
 
