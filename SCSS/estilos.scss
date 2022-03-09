@@ -1,0 +1,142 @@
+@import "estructura";
+@import "colores";
+
+@font-face {
+    font-family: FUENTE1;
+    font-style: normal;
+    src: url(/media/LeagueGothic-Regular.otf);
+}
+  
+  @font-face {
+    font-family: FUENTE2;
+    font-style: normal;
+    src: url(/media/RobotoCondensed-Light.ttf); 
+}
+
+.menu{
+    ul{
+        li{
+        font-size: 30px;
+        font-family: FUENTE1;
+        a:hover{
+            border-bottom:3px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-style: solid;
+            border-color: $color_fuente;
+        }
+    }
+}
+}
+
+ul{
+    img{
+        width: 65px; 
+        height: 65px;
+        margin-top: -10px;
+    }
+}
+
+.linea {
+    height: 20px;
+    color: $color_fuente;
+    font-size: 160px;
+}
+
+#section_inicio{
+    font-size: 110px; 
+    font-family: FUENTE1; 
+    color: $color_texto; 
+}
+
+footer{
+    background-color: $color_fuente;
+}
+
+.footer_titulos_menu{
+    color: $color_texto;
+    font-family: FUENTE1; 
+    font-size: 30px;
+}
+
+.footer_cont_menu{
+    color: $color_texto; 
+    font-family: FUENTE2; 
+    text-align: justify;   
+}
+
+.FORMULARIO{
+    font-family: FUENTE1; 
+    font-size: 24px; 
+    color: $color_texto; 
+    margin: 0;
+}
+
+.FORMULARIO_CAMPO{
+    font-family: FUENTE2; 
+    height: auto;
+    font-size: 22px; 
+    border-color: $color_texto;
+    background-color: transparent;
+    border-style: none;
+    width: auto;
+}
+
+.BOTON{
+    font-size: FUENTE1;
+    font-size: 14px;
+    border-style: solid;
+    border-color: $color_texto;
+    border-width: 3px;
+    padding: 5px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.titulos{
+    font-family: FUENTE1; 
+    color: $color_texto; 
+    font-size: 110px; 
+    padding-left: 60px;
+}
+
+.subtitulos{
+    font-family: FUENTE2; 
+    color: $color_subt; 
+    font-size: 35px; 
+    padding-left: 100px;   
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contenido{
+    font-family: FUENTE2; 
+    color: $color_texto; 
+    font-size: 25px; 
+    padding-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.BOTONCOMPRA{
+    padding-left: 100px;
+    :hover{
+        background-color: $color_fuente;
+        border-style: none;
+    }
+}
+
+#carrito{
+    font-size: 110px; 
+    font-family: FUENTE1; 
+    color: $color_texto; 
+}
+
+#carrito2{
+    font-size: 50px; 
+    font-family: FUENTE1; 
+    color: $color_texto; 
+}
