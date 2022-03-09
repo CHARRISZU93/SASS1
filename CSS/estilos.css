@@ -8,13 +8,13 @@
 @font-face {
   font-family: FUENTE1;
   font-style: normal;
-  src: url(../media/LeagueGothic-Regular.otf);
+  src: url(LeagueGothic-Regular.otf);
 }
 
 @font-face {
   font-family: FUENTE2;
   font-style: normal;
-  src: url(../media/RobotoCondensed-Light.ttf); }
+  src: url(RobotoCondensed-Light.ttf); }
 
 .menu ul li {
   font-size: 30px;
